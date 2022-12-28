@@ -37,9 +37,9 @@ module "s3-module" {
 }
 
 module "s3-module-andy" {
-  source  = "app.terraform.io/JAJA-DATA-DEV/s3-module/aws"
+  source                            = "app.terraform.io/JAJA-DATA-DEV/s3-module/aws"
   version = "1.0.0"
   # insert required variables here
-  bucket_name   = "andy-bucket-test-for-jaja"
-  bucket_region = "eu-west-1"
+  bucket_name                   = "andy-bucket-test-for-jaja-2"
+  bucket_region          = "eu-west-1"
 }
