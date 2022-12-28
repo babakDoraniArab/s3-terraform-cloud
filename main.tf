@@ -32,6 +32,6 @@ module "s3-module" {
   source  = "app.terraform.io/JAJA-DATA-DEV/s3-module/aws"
   version = "1.0.0"
   # insert required variables here
-  bucket_name   = "babak-bucket"
+  bucket_name   = "babak-bucket-test-for-jaja"
   bucket_region = "eu-west-1"
 }
