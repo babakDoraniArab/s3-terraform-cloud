@@ -36,7 +36,7 @@ module "s3-module" {
   bucket_region = "eu-west-1"
 }
 
-module "s3-module" {
+module "s3-module-andy" {
   source  = "app.terraform.io/JAJA-DATA-DEV/s3-module/aws"
   version = "1.0.0"
   # insert required variables here
