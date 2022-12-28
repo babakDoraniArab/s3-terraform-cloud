@@ -1,5 +1,8 @@
 variable "infra_data_organization" {}
 variable "infra_data_workspace" {}
+variable "DEV_ACCESS_KEY_ID" {}
+variable "DEV_SECRET_ACCESS_KEY" {}
+variable "region" {}
 
 terraform {
   required_providers {
@@ -19,7 +22,7 @@ terraform {
 
 
 provider "aws" {
-  region     = var.aws_region
+  region     = var.region
   access_key = var.DEV_ACCESS_KEY_ID
   secret_key = var.DEV_SECRET_ACCESS_KEY
 }
